@@ -2,11 +2,14 @@
 
 
 ## Login Page
-![alt text](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/login-page.png)
+![user login](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/login-page.png)
 
 ## Main Page
-![alt text](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/main.png)
+![todo app](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/main.png)
 
+
+## Basic Methodology
+![methodoloy](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/methodology.png)
 
 ### Features:
 - Add tasks

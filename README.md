@@ -2,10 +2,10 @@
 
 
 ## Login Page
-![alt text](https://github.com/sahasourav17/Todo-list-app-with-local-storage/blob/main/images/login-page.png)
+![alt text](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/login-page.png)
 
 ## Main Page
-![alt text](https://github.com/sahasourav17/Todo-list-app-with-local-storage/blob/main/images/todo-list.png)
+![alt text](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/main.png)
 
 
 ### Features:

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="welcome" id="welcome"></h2>
+        <a href="index.html" class="out-btn">
+          <i class="fa-solid fa-right-from-bracket" style="font-size: 25px"></i>
+        </a>
+      </div>
+      <br/>
+      <div class="add-form">
+        <form id="add-todo-form">
+          <label for="title"></label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Enter a task name"
+          />
+        </form>
+      </div>
+
+      <br/>
+      <div class="todolist">
+        <p>Your todo list</p>
+      </div>
+      <div class="todo-list"></div>
+    </div>
+    <script  defer src="js/app.js"></script>
+  </body>
+</html>

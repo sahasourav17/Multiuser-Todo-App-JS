@@ -14,7 +14,8 @@ body{
   background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
 }
 .container{
-    max-width: 50vw;
+    width: 45vw;
+    min-width: 350px;
     align-items: center;
     padding: 28px 0 30px;
     margin: 137px auto;
@@ -53,21 +54,23 @@ body{
 .container .add-form  input{
     /* height: 100%;
     width: 100%; */
-    width:40vw;
+    width:30vw;
+    min-width: 180px;
     outline: none;
     font-size: 18px;
     border-radius: 4px;
-    padding: 0 20px 0 53px;
+    /* padding: 0 20px 0 53px; */
+    /* padding-left: 50%;
+    padding-right: 50%; */
     border: 2px solid #4AB1FF;
     box-shadow: none;
 }
 .container .add-form  input:focus{
 
-    width:42vw;
+    width:32vw;
     outline: none;
     font-size: 18px;
     border-radius: 4px;
-    padding: 0 20px 0 53px;
     border: 2px solid #2D5CFE;
     box-shadow: none;
 }
@@ -105,6 +108,13 @@ body{
     backface-visibility: visible;
     cursor: pointer;
 }
+.todo-item .options .delete{
+    cursor: pointer;
+}
+.todo-item p .checkbox{
+    cursor: pointer;
+}
+
 
 .todolist{
     display: flex;
@@ -113,6 +123,7 @@ body{
     font-size: larger;
     font-weight: bold;
 }
+
 
 .todo-list{
     /* width: auto; */

@@ -11,6 +11,7 @@
 ## Basic Methodology
 ![methodoloy](https://github.com/sahasourav17/Multiuser-Todo-App-JS/blob/main/images/methodology.png)
 
+
 ### Features:
 - Add tasks
 - Edit tasks
